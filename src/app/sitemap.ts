@@ -5,7 +5,15 @@ export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['zh', 'en', 'pt', 'mwl'];
-  const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
+  const routes = [
+    '',
+    '/o-que-visitar-em-leiria',
+    '/leiria-em-1-dia',
+    '/jardim-luis-de-camoes-historia',
+    '/privacy-policy',
+    '/terms-of-service',
+    '/cookie-settings',
+  ];
 
   const sitemap: MetadataRoute.Sitemap = [];
 
@@ -22,9 +30,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemap.push({
         url,
-        lastModified: new Date('2026-09-04'),
+        lastModified: new Date('2026-10-08'),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
-        priority: route === '' ? 1 : 0.5,
+        priority:
+          route === ''
+            ? 1
+            : route.startsWith('/o-que-visitar') ||
+                route.startsWith('/leiria-em-1-dia') ||
+                route.startsWith('/jardim-luis-de-camoes-historia')
+              ? 0.7
+              : 0.5,
         alternates: {
           languages,
         },

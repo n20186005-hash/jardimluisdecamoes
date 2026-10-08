@@ -1,5 +1,7 @@
 export const siteName = 'Jardim Luís de Camões';
-export const defaultDomain = 'jardimluisdecamoes.com';
+// 规范化主机统一为 www 版本（与 Search Console 主索引主机一致）。
+// 非 www 请求应由 Cloudflare 配置 301 跳转到对应的 www URL。
+export const defaultDomain = 'www.jardimluisdecamoes.com';
 
 function resolveBaseUrl(): string {
   const fromEnv =

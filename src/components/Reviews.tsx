@@ -47,45 +47,47 @@ export default function Reviews() {
           {t('declaration')}
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
-            <div
-              key={i}
-              className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
-              style={{
-                background: 'var(--card-bg)',
-                boxShadow: 'var(--card-shadow)',
-                border: '1px solid var(--border-color)',
-              }}
-            >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-                      style={{ background: 'var(--accent)' }}
-                    >
-                      {review.name.charAt(0)}
+        {items.length > 0 && (
+          <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
+            {items.map((review, i) => (
+              <div
+                key={i}
+                className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
+                style={{
+                  background: 'var(--card-bg)',
+                  boxShadow: 'var(--card-shadow)',
+                  border: '1px solid var(--border-color)',
+                }}
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <div
+                        className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
+                        style={{ background: 'var(--accent)' }}
+                      >
+                        {review.name.charAt(0)}
+                      </div>
+                      <span
+                        className="text-sm font-semibold"
+                        style={{ color: 'var(--text-primary)' }}
+                      >
+                        {review.name}
+                      </span>
                     </div>
-                    <span
-                      className="text-sm font-semibold"
-                      style={{ color: 'var(--text-primary)' }}
-                    >
-                      {review.name}
-                    </span>
                   </div>
+                  <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                    {review.date}
+                  </span>
                 </div>
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {review.date}
-                </span>
+                <Stars count={review.rating} />
+                <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                  {review.text}
+                </p>
               </div>
-              <Stars count={review.rating} />
-              <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {review.text}
-              </p>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
 
         {/* More reviews link — arrow only */}
         <div className="flex justify-center">

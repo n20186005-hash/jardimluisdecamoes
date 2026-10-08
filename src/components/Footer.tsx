@@ -8,7 +8,6 @@ const fallbackLinks: FooterLink[] = [
   { name: 'Direção-Geral do Património Cultural', url: 'https://www.patrimoniocultural.gov.pt/' },
   { name: 'Turismo Centro de Portugal', url: 'https://www.centerofportugal.com/' },
   { name: 'Câmara Municipal de Leiria', url: 'https://www.cm-leiria.pt/' },
-  { name: 'AIMA — Agência para a Integração, Migrações e Asilo', url: 'https://aima.gov.pt/pt' },
 ];
 
 export default function Footer() {

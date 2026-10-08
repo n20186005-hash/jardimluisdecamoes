@@ -10,17 +10,80 @@
     "map": "Map",
     "backToHome": "Back to Home"
   },
+  "relatedGuides": {
+    "title": "Guias de Leiria"
+  },
+  "topics": {
+    "oQueVisitar": {
+      "metaTitle": "O que bisitar an Leiria | Pontos de Antresse i Rota",
+      "metaDescription": "Guia de l que bisitar an Leiria: Jardim Luís de Camões, Castielho, Sé i centro stórico cun Praça Rodrigues Lobo. Rota a pie prática.",
+      "title": "O que bisitar an Leiria",
+      "intro": "Leiria, ne l coraçon de Pertual, ten un centro stórico cumpato i caminable. De l Jardim Luís de Camões al castielho que bai subre l riu Lis, todo se puede splorar a pie nua manhan ó nuca.",
+      "sections": [
+        { "id": "jardim", "title": "Jardim Luís de Camões — l punto de partida", "content": "L jardin memorial dedicado a Camões ye l lugar natural para ampeçar. Pequeno, plano i tranquilo, queda mesmo arredol de l centro bielho i a cinco minutos a pie de l Castielho." },
+        { "id": "praca", "title": "Praça Rodrigues Lobo", "content": "La praça percipal de la cidade, rodeada de cafés i comércio tradicional, ye l coraçon de la bida urbana de Leiria i punto de passaige pa l centro stórico." },
+        { "id": "se", "title": "Sé de Leiria (Catedral)", "content": "La antiga catedral, de traça medieval cun reformas posteriores, queda a curta çtáncia a pie de l jardin i de la praça, ne l alto de l centro stórico." },
+        { "id": "castelo", "title": "Castielho de Leiria", "content": "Simbolo de la cidade, este castielho medieval fui paço régio ne l tiempo de D. Dinis i cunserba la célebre galerie gótica de arcos ogibais. De la colina, la bista abrange l riu Lis i a cidade." },
+        { "id": "rio", "title": "Riu Lis i arredores", "content": "L riu Lis atrabessa Leiria i las sues margens cumbidan a passeios calmos. Nas prossimidades, l Pinhal de Leiria i la cuosta atlántica (Nazaré, San Pedro de Moel) quedan a cerca de 30 minutos de carro." }
+      ],
+      "faqTitle": "Perguntas frequentes",
+      "faqSubtitle": "Dúbidas quemuns subre l que bisitar an Leiria.",
+      "faq": [
+        { "q": "O que bisitar an Leiria nun die?", "a": "Ampece ne l Jardim Luís de Camões, suba pula Praça Rodrigues Lobo até a la Sé i al Castielho de Leiria, i termine ne l centro stórico cun un café ó refeiçon. Todo queda a poucos minutos a pie." },
+        { "q": "Leiria bal la pena bisitar?", "a": "Si. L centro stórico ye cumpato i caminable, cun l castielho, la sé, jardins i comércio tradicional reunidos nua ária pequeinha, eideal para ua bejita de meio die." },
+        { "q": "Como me zeoloco pul centro de Leiria?", "a": "A pie. Las percipales atraçones (jardin, praça, sé, castielho) quedan a 5–10 minutos a pie umas de las outras. Hai stacionamiento pago na bie pública nas prossimidades de l jardin." }
+      ]
+    },
+    "leiria1Dia": {
+      "metaTitle": "Leiria nun Die | Rota a Pie pul Centro Stórico",
+      "metaDescription": "Rota de Leiria nun die a pie: Jardim Luís de Camões, Praça Rodrigues Lobo, Sé de Leiria i Castielho. Cronograma prático i dicas.",
+      "title": "Leiria nun Die",
+      "intro": "Ua rota a pie que acompanha la rota de bejita de l centro stórico de Leiria — de l Turismo de Pertual — ampeçando ne l Jardim Luís de Camões i subindo até al Castielho.",
+      "sections": [
+        { "id": "manha", "title": "Manhan: Jardin i centro stórico", "content": "Ampece pula calma de l Jardim Luís de Camões (30–60 min), depuis suba pula Praça Rodrigues Lobo i splore l centro stórico cun ls sous cafés i loijas de artesanato." },
+        { "id": "se-castelo", "title": "Subida al Castielho", "content": "A cerca de 5 minutos a pie de l jardin queda l Castielho de Leiria. Reserbe 1–1,5h para las muralhas, la galerie gótica i la bista subre l riu Lis. Liebe auga i calçado cunfortable — hai ua subida." },
+        { "id": "almoco", "title": "Almoço ne l centro", "content": "L centro stórico ten restaurantes de cozina regional de l Centro de Pertual. Sperimente marisco, carnes assadas ó doçaria cumbentual." },
+        { "id": "tarde", "title": "Nuca: museus i margen de l Lis", "content": "A la nuca, besite ls museus de la cidade (p.ex.: Museu de Leiria) ó camine pula margen de l riu Lis. Quien tenga carro puode afastar-se até a la cuosta (Nazaré, cerca de 30 min)." }
+      ],
+      "faqTitle": "Perguntas frequentes",
+      "faqSubtitle": "Dúbidas quemuns subre un rota de Leiria nun die.",
+      "faq": [
+        { "q": "Dá para ber Leiria nun die?", "a": "Si. L eissencial (jardin, praça, sé, castielho i centro stórico) cabe cunfortablemente nun die, cun tiempo para almoço i ua caminaige tranquila." },
+        { "q": "Quanto tiempo demora l Castielho de Leiria?", "a": "Cerca de 1 a 1,5 horas para bejitar las muralhas i la galerie gótica cun calma." },
+        { "q": "La rota ye adequada para famílias?", "a": "An grande parte, si: l jardin i l centro son planos. La subida al castielho ten anclinaçon; liebe carrinho adequado i auga." }
+      ]
+    },
+    "historia": {
+      "metaTitle": "Stória de l Jardim Luís de Camões | Leiria",
+      "metaDescription": "La stória de l Jardim Luís de Camões an Leiria: la houmenaige a Camões, la státua central i la Státua de l Pastor Peregrino ne l centro stórico.",
+      "title": "Stória de l Jardim Luís de Camões",
+      "intro": "L jardin ye un spácio urbano criado pula cidade de Leiria para houmenaigiar l maior poeta pertués. Ne l centro stórico, arredol de la colina de l castielho, une memória literária i zeanso quotidiano.",
+      "sections": [
+        { "id": "camoes", "title": "Quien fui Luís de Camões", "content": "Luís Vaz de Camões (c. 1524–1580) ye cunsidrado l maior poeta de Pertual. Screbiu Os Lusíadas i tornou-se simblo de la lhéngua pertuesa — por esso l 10 de júnio, die de la sue muorte, ye l Die de Pertual." },
+        { "id": "jardim", "title": "La criaçon de l jardin", "content": "La cidade de Leiria dedicou este jardin a Camões cumo spácio de memória i de coutro, cun la sue státua cumo peça central i ua pequeinha fuonte rodeada de arbustos." },
+        { "id": "esculturas", "title": "Las sculturas de l jardin", "content": "Para alhá de la státua de Camões, l jardin tamien antegrou la Státua de l Pastor Peregrino, refréncia de la tradiçon lhiterária pertuesa." },
+        { "id": "cidade", "title": "Leiria i l sou castielho", "content": "L jardin queda arredol de la colina stórica de Leiria, dominada pul Castielho de Leiria i pula Sé. La ária ye l núcleo de l centro bielho de la cidade." }
+      ],
+      "faqTitle": "Perguntas frequentes",
+      "faqSubtitle": "Dúbidas quemuns subre la stória de l jardin.",
+      "faq": [
+        { "q": "Quando fui criado l Jardim Luís de Camões?", "a": "L jardin fui stablecido pula Cámara Municipal de Leiria cumo spácio de houmenaige a Camões. Cunsulte la outarquia para datas exatas de criaçon i de anstalaçon de las sculturas." },
+        { "q": "Qué státuas stan ne l jardin?", "a": "La státua central dedicada a Luís de Camões i la Státua de l Pastor Peregrino, ambas ne l centro stórico de Leiria." },
+        { "q": "L jardin ye pago?", "a": "Non. Ye un spácio público al aire libre, grátis i abierto todo l die." }
+      ]
+    }
+  },
   "hero": {
     "title": "Jardim Luís de Camões",
     "subtitle": "Leiria · Pertual",
     "rating": "4.5",
-    "reviewCount": "6,696",
+    "reviewCount": "6,719",
     "hours": "Open 24 Hours",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Splorar l Jardim Luís de Camões",
-    "description": "L Jardim Luís de Camões ye un pequeinho jardin memorial ourbano lhocalizado ne l coraçon de Leiria, adjacente al Castielho de Leiria i al centro stórico. Ye un lhocal popular para ls habitantes lhocales relaxáren i passeáren. Ne l centro de l jardin argue-se ua státua de bronze an houmenaige al maior poeta de Pertual, Luís de Camões, rodeada por arbustos bien cuidados, flores, bancos i ua pequeinha fuonte, ouferecendo un ambiente tranquilo purfeito para un brebe çcanso.",
+    "description": "L Jardim Luís de Camões ye un pequeinho jardin memorial ourbano lhocalizado ne l coraçon de Leiria, adjacente al Castielho de Leiria i al centro stórico. Ye un lhocal popular para ls habitantes lhocales relaxáren i passeáren. Ne l centro de l jardin argue-se ua státua an houmenaige al maior poeta de Pertual, Luís de Camões, rodeada por arbustos bien cuidados, flores, bancos i ua pequeinha fuonte, ouferecendo un ambiente tranquilo purfeito para un brebe çcanso.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -33,10 +96,11 @@
     "alsoKnownAs": {
       "title": "Destaques de l Jardin",
       "items": [
-        "Seneficado Memorial: Apresenta ua státua de bronze central dedicada al grande poeta pertués Luís de Camões",
+        "Seneficado Memorial: Apresenta ua státua central dedicada al grande poeta pertués Luís de Camões",
         "Ambiente Guapo: Ua mistura harmoniosa de arbustos berdes bien cuidados, flores sazonales i ua pequeinha fuonte",
         "Lhocalizaçon Central: Situado ne l centro de Leiria, a solo 5 minutos a pie de l stórico Castielho de Leiria",
-        "Oásis Ourbano: Proporciona un spácio tranquilo i relaxante tanto para ls cidadanos cumo para ls turistas"
+        "Oásis Ourbano: Proporciona un spácio tranquilo i relaxante tanto para ls cidadanos cumo para ls turistas",
+        "Outras Státuas: Para alhá de la státua de Camões, l jardin tamien antegrou la Státua de l Pastor Peregrino, refréncia de la tradiçon lhiterária pertuesa"
       ]
     }
   },
@@ -46,7 +110,7 @@
       {
         "id": "history",
         "title": "Seneficado Memorial",
-        "content": "Este jardin fui stablecido pula cidade de Leiria cumo un spácio ourbano para prestar houmenaige al gigante lhiterário pertués Luís de Camões, tenendo la sue státua de bronze cumo peça central."
+        "content": "Este jardin fui stablecido pula cidade de Leiria cumo un spácio ourbano para prestar houmenaige al gigante lhiterário pertués Luís de Camões, tenendo la sue státua cumo peça central."
       },
       {
         "id": "architecture",
@@ -225,57 +289,7 @@
   "reviews": {
     "title": "Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "João Silva",
-        "date": "Hai 2 meses",
-        "rating": 5,
-        "text": "Un jardin ourbano marabilhoso i bien preserbado! Ls caminos de calçada i las státuas stan chenos de stória. Caminar eiqui ye mui relaxante. Recumendo bibamente benir al poner de l sol."
-      },
-      {
-        "name": "Maria Costa",
-        "date": "Hai 1 mës",
-        "rating": 5,
-        "text": "Un de ls lhocales de lhazer mais guapos de Leiria! La tranquilidade eiqui ye mui relaxante i la begetaçon circundante ye guapa. Cuidado ne l berano, pus puode quedar caliente, lhebe auga i protetor solar."
-      },
-      {
-        "name": "Carlos Rodrigues",
-        "date": "Hai 3 meses",
-        "rating": 4,
-        "text": "Un lhugar ancreíble. L jardin nun ye einorme, mas la lhocalizaçon ye purfeita. Tibe ua ótima refeiçon tradecional pertuesa nun restourante próssimo. L único porblema ye ancontrar stacionamiento na época alta."
-      },
-      {
-        "name": "Ana Martins",
-        "date": "Hai mais de 6 meses",
-        "rating": 5,
-        "text": "Un lhugar mui romántico i ancantador. Caminamos por eiqui i la bista noturna ye absolutamente çlumbrante. Quedei cumpletamente apaixonada!"
-      },
-      {
-        "name": "Pedro Santos",
-        "date": "Hai 1 anho",
-        "rating": 5,
-        "text": "La paisaige eiqui rialmente lhebanta l ánimo. Puode ber la státua requintada a misturar-se cula ampla praça. L jardin an si ye ancantador cun muitos cafés al redror."
-      },
-      {
-        "name": "Teresa Ferreira",
-        "date": "Hai mais de 6 meses",
-        "rating": 4,
-        "text": "Bal bien la pena la bejita! Ye mui fácele caminar até eiqui a partir de l Castielho de Leiria. Recumendo ousar çapatos rasos debido als caminos de calçada. Ls lhocales son amigables, ótimos lhocales para fotos."
-      },
-      {
-        "name": "Rui Almeida",
-        "date": "Hai 3 meses",
-        "rating": 5,
-        "text": "Parece que recuámos ne l tiempo! Cada camino i fuonte ten la sue stória. Çcansar nun banco faç-nos sentir que l tiempo parou. Ua bejita oubrigatória an Leiria."
-      },
-      {
-        "name": "Catarina Gomes",
-        "date": "Hai 2 meses",
-        "rating": 5,
-        "text": "Guapo para alhá de las palabras. Quier seia la státua de Camões ó la begetaçon berde, nun bai querer ir ambora. Recumendo bibamente sentar-se junto a la fuonte, la sensaçon ye ancreíble."
-      }
-    ]
+    "moreReviews": "View More Reviews on Google Maps"
   },
   "mapSection": {
     "title": "Transportation Guide",
@@ -308,10 +322,6 @@
       {
         "name": "Cámara Municipal de Leiria",
         "url": "https://www.cm-leiria.pt/"
-      },
-      {
-        "name": "AIMA — Agéncia pa la Amportaçon, Migraçones i Asilo",
-        "url": "https://aima.gov.pt/pt"
       }
     ],
     "photoCredit": "Todas las fotografie apersentadas neste site quedan a la pertenéncia de ls respetibos fotógrafos, cun dreitos d'outor reserbados."

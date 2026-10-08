@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Jardim Luís de Camões (Leiria): Guia Completo & O Que Fazer",
-    "description": "Descubra o Jardim Luís de Camões em Leiria: jardim memorial gratuito junto ao Castelo, com estátua do poeta, fonte e bancos. Aberto todo o dia. Mapa, o que visitar e dicas práticas."
+    "title": "Jardim Luís de Camões em Leiria | Guia de Visita",
+    "description": "Descubra o Jardim Luís de Camões, no centro de Leiria. Saiba onde fica, como chegar, o que ver e quais os pontos de interesse nas proximidades."
   },
   "header": {
     "home": "Início",
@@ -10,17 +10,80 @@
     "map": "Mapa",
     "backToHome": "Voltar ao Início"
   },
+  "relatedGuides": {
+    "title": "Guias de Leiria"
+  },
+  "topics": {
+    "oQueVisitar": {
+      "metaTitle": "O que visitar em Leiria | Pontos de Interesse e Roteiro",
+      "metaDescription": "Guia do que visitar em Leiria: Jardim Luís de Camões, Castelo, Sé, centro histórico e Praça Rodrigues Lobo. Roteiro a pé prático.",
+      "title": "O que visitar em Leiria",
+      "intro": "Leiria, no coração de Portugal, reúne um centro histórico compacto e caminhável. Do Jardim Luís de Camões ao Castelo que vigia o rio Lis, tudo pode ser explorado a pé numa manhã ou tarde.",
+      "sections": [
+        { "id": "jardim", "title": "Jardim Luís de Camões — o ponto de partida", "content": "O jardim memorial dedicado a Camões é o lugar natural para começar. Pequeno, plano e tranquilo, fica mesmo junto ao centro antigo e a cinco minutos a pé do Castelo." },
+        { "id": "praca", "title": "Praça Rodrigues Lobo", "content": "A praça principal da cidade, rodeada de cafés e comércio tradicional, é o coração da vida urbana de Leiria e ponto de passagem para o centro histórico." },
+        { "id": "se", "title": "Sé de Leiria (Catedral)", "content": "A antiga catedral, de traça medieval com reformas posteriores, situa-se a curta distância a pé do jardim e da praça, no alto do centro histórico." },
+        { "id": "castelo", "title": "Castelo de Leiria", "content": "Símbolo da cidade, o castelo medieval foi paço régio no tempo de D. Dinis e conserva a célebre galeria gótica de arcos ogivais. Da colina, a vista abrange o rio Lis e a cidade." },
+        { "id": "rio", "title": "Rio Lis e arredores", "content": "O rio Lis atravessa Leiria e as suas margens convidam a passeios calmos. Nas proximidades, o Pinhal de Leiria e a costa atlântica (Nazaré, São Pedro de Moel) ficam a cerca de 30 minutos de carro." }
+      ],
+      "faqTitle": "Perguntas frequentes",
+      "faqSubtitle": "Dúvidas comuns sobre o que visitar em Leiria.",
+      "faq": [
+        { "q": "O que visitar em Leiria num dia?", "a": "Comece no Jardim Luís de Camões, suba pela Praça Rodrigues Lobo até à Sé e ao Castelo de Leiria, e termine no centro histórico com um café ou refeição. Tudo fica a poucos minutos a pé." },
+        { "q": "Leiria vale a pena visitar?", "a": "Sim. O centro histórico é compacto e caminhável, com o castelo, a sé, jardins e comércio tradicional reunidos numa área pequena, ideal para uma visita de meio dia." },
+        { "q": "Como me desloco pelo centro de Leiria?", "a": "A pé. As principais atrações (jardim, praça, sé, castelo) ficam a 5–10 minutos a pé umas das outras. Há estacionamento pago na via pública nas proximidades do jardim." }
+      ]
+    },
+    "leiria1Dia": {
+      "metaTitle": "Leiria em 1 Dia | Roteiro a Pé pelo Centro Histórico",
+      "metaDescription": "Roteiro de Leiria em 1 dia a pé: Jardim Luís de Camões, Praça Rodrigues Lobo, Sé de Leiria e Castelo. Cronograma prático e dicas.",
+      "title": "Leiria em 1 Dia",
+      "intro": "Um roteiro a pé que acompanha a rota de visita do centro histórico de Leiria — da oficial do Turismo de Portugal — começando no Jardim Luís de Camões e subindo até ao Castelo.",
+      "sections": [
+        { "id": "manha", "title": "Manhã: Jardim e centro histórico", "content": "Comece pela calma do Jardim Luís de Camões (30–60 min), depois suba pela Praça Rodrigues Lobo e explore o centro histórico com os seus cafés e lojas de artesanato." },
+        { "id": "se-castelo", "title": "Subida ao Castelo", "content": "A cerca de 5 minutos a pé do jardim fica o Castelo de Leiria. Reserve 1–1,5h para as muralhas, a galeria gótica e a vista sobre o rio Lis. Leve água e calçado confortável — há uma subida." },
+        { "id": "almoco", "title": "Almoço no centro", "content": "O centro histórico tem restaurantes de cozinha regional do Centro de Portugal. Experimente marisco, carnes assadas ou doçaria conventual." },
+        { "id": "tarde", "title": "Tarde: museus e margem do Lis", "content": "À tarde, visite os museus da cidade (ex.: Museu de Leiria) ou caminhe pela margem do rio Lis. Quem tiver carro pode afastar-se até à costa (Nazaré, cerca de 30 min)." }
+      ],
+      "faqTitle": "Perguntas frequentes",
+      "faqSubtitle": "Dúvidas comuns sobre um roteiro de Leiria em 1 dia.",
+      "faq": [
+        { "q": "Dá para ver Leiria em 1 dia?", "a": "Sim. O essencial (jardim, praça, sé, castelo e centro histórico) cabe confortavelmente num dia, com tempo para almoço e uma caminhada tranquila." },
+        { "q": "Quanto tempo demora o Castelo de Leiria?", "a": "Cerca de 1 a 1,5 horas para visitar as muralhas e a galeria gótica com calma." },
+        { "q": "A rota é adequada para famílias?", "a": "Em grande parte, sim: o jardim e o centro são planos. A subida ao castelo tem inclinação; leve carrinho adequado e água." }
+      ]
+    },
+    "historia": {
+      "metaTitle": "História do Jardim Luís de Camões | Leiria",
+      "metaDescription": "A história do Jardim Luís de Camões em Leiria: a homenagem a Camões, a estátua central e a Estátua do Pastor Peregrino no centro histórico.",
+      "title": "História do Jardim Luís de Camões",
+      "intro": "O jardim é um espaço urbano criado pela cidade de Leiria para homenagear o maior poeta português. No centro histórico, junto à colina do castelo, une memória literária e descanso quotidiano.",
+      "sections": [
+        { "id": "camoes", "title": "Quem foi Luís de Camões", "content": "Luís Vaz de Camões (c. 1524–1580) é considerado o maior poeta de Portugal. Escreveu Os Lusíadas e tornou-se símbolo da língua portuguesa — por isso o 10 de junho, dia da sua morte, é o Dia de Portugal." },
+        { "id": "jardim", "title": "A criação do jardim", "content": "A cidade de Leiria dedicou este jardim a Camões como espaço de memória e convívio, com a sua estátua como peça central e uma pequena fonte rodeada de arbustos." },
+        { "id": "esculturas", "title": "As esculturas do jardim", "content": "Para além da estátua de Camões, o jardim integra também a Estátua do Pastor Peregrino, referência da tradição literária portuguesa." },
+        { "id": "cidade", "title": "Leiria e o seu castelo", "content": "O jardim fica junto à colina histórica de Leiria, dominada pelo Castelo de Leiria e pela Sé. A área é o núcleo do centro antigo da cidade." }
+      ],
+      "faqTitle": "Perguntas frequentes",
+      "faqSubtitle": "Dúvidas comuns sobre a história do jardim.",
+      "faq": [
+        { "q": "Quando foi criado o Jardim Luís de Camões?", "a": "O jardim foi estabelecido pela Câmara Municipal de Leiria como espaço de homenagem a Camões. Consulte a autarquia para datas exatas de criação e de instalação das esculturas." },
+        { "q": "Que estátuas estão no jardim?", "a": "A estátua central dedicada a Luís de Camões e a Estátua do Pastor Peregrino, ambas no centro histórico de Leiria." },
+        { "q": "O jardim é pago?", "a": "Não. É um espaço público ao ar livre, gratuito e aberto todo o dia." }
+      ]
+    }
+  },
   "hero": {
     "title": "Jardim Luís de Camões",
     "subtitle": "Leiria · Portugal",
     "rating": "4.5",
-    "reviewCount": "6,696",
+    "reviewCount": "6,719",
     "hours": "Aberto 24 Horas",
     "openMaps": "Ver Localização"
   },
   "intro": {
     "title": "Explorar o Jardim Luís de Camões",
-    "description": "O Jardim Luís de Camões é um pequeno jardim memorial urbano localizado no coração de Leiria, adjacente ao Castelo de Leiria e ao centro histórico. É um local popular para os habitantes locais relaxarem e passearem. No centro do jardim ergue-se uma estátua de bronze em homenagem ao maior poeta de Portugal, Luís de Camões, rodeada por arbustos bem cuidados, flores, bancos e uma pequena fonte, oferecendo um ambiente tranquilo perfeito para um breve descanso.",
+    "description": "O Jardim Luís de Camões é um pequeno jardim memorial urbano localizado no coração de Leiria, adjacente ao Castelo de Leiria e ao centro histórico. É um local popular para os habitantes locais relaxarem e passearem. No centro do jardim ergue-se uma estátua em homenagem ao maior poeta de Portugal, Luís de Camões, rodeada por arbustos bem cuidados, flores, bancos e uma pequena fonte, oferecendo um ambiente tranquilo perfeito para um breve descanso.",
     "visitGuide": {
       "title": "Dicas de Visita",
       "items": [
@@ -33,10 +96,11 @@
     "alsoKnownAs": {
       "title": "Destaques do Jardim",
       "items": [
-        "Significado Memorial: Apresenta uma estátua de bronze central dedicada ao grande poeta português Luís de Camões",
+        "Significado Memorial: Apresenta uma estátua central dedicada ao grande poeta português Luís de Camões",
         "Ambiente Belo: Uma mistura harmoniosa de arbustos verdes bem cuidados, flores sazonais e uma pequena fonte",
         "Localização Central: Situado no centro de Leiria, a apenas 5 minutos a pé do histórico Castelo de Leiria",
-        "Oásis Urbano: Proporciona um espaço tranquilo e relaxante tanto para os cidadãos como para os turistas"
+        "Oásis Urbano: Proporciona um espaço tranquilo e relaxante tanto para os cidadãos como para os turistas",
+        "Outras Esculturas: Além da estátua de Camões, o jardim integra a Estátua do Pastor Peregrino, referência da tradição literária portuguesa"
       ]
     }
   },
@@ -46,7 +110,7 @@
       {
         "id": "history",
         "title": "Significado Memorial",
-        "content": "Este jardim foi estabelecido pela cidade de Leiria como um espaço urbano para prestar homenagem ao gigante literário português Luís de Camões, tendo a sua estátua de bronze como peça central."
+        "content": "Este jardim foi estabelecido pela cidade de Leiria como um espaço urbano para prestar homenagem ao gigante literário português Luís de Camões, tendo a sua estátua como peça central."
       },
       {
         "id": "architecture",
@@ -196,7 +260,7 @@
   },
   "gallery": {
     "title": "Fotos do Jardim",
-    "subtitle": "Charming Scenery of Jardim Luís de Camões",
+    "subtitle": "Paisagem Encantadora do Jardim Luís de Camões",
     "captions": [
       "Estátua de Camões",
       "Fonte do Jardim",
@@ -224,58 +288,8 @@
   },
   "reviews": {
     "title": "Avaliações de Visitantes",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "João Silva",
-        "date": "Há 2 meses",
-        "rating": 5,
-        "text": "Um jardim urbano maravilhoso e bem preservado! Os caminhos de calçada e as estátuas estão cheios de história. Caminhar aqui é muito relaxante. Recomendo vivamente vir ao pôr do sol."
-      },
-      {
-        "name": "Maria Costa",
-        "date": "Há 1 mês",
-        "rating": 5,
-        "text": "Um dos locais de lazer mais bonitos de Leiria! A tranquilidade aqui é muito relaxante e a vegetação circundante é linda. Cuidado no verão, pois pode ficar quente, leve água e protetor solar."
-      },
-      {
-        "name": "Carlos Rodrigues",
-        "date": "Há 3 meses",
-        "rating": 4,
-        "text": "Um lugar incrível. O jardim não é enorme, mas a localização é perfeita. Tive uma ótima refeição tradicional portuguesa num restaurante próximo. O único problema é encontrar estacionamento na época alta."
-      },
-      {
-        "name": "Ana Martins",
-        "date": "Há mais de 6 meses",
-        "rating": 5,
-        "text": "Um lugar muito romântico e encantador. Caminhamos por aqui e a vista noturna é absolutamente deslumbrante. Fiquei completamente apaixonada!"
-      },
-      {
-        "name": "Pedro Santos",
-        "date": "Há 1 ano",
-        "rating": 5,
-        "text": "A paisagem aqui realmente levanta o ânimo. Pode ver a estátua requintada a misturar-se com a ampla praça. O jardim em si é encantador com muitos cafés ao redor."
-      },
-      {
-        "name": "Teresa Ferreira",
-        "date": "Há mais de 6 meses",
-        "rating": 4,
-        "text": "Vale bem a pena a visita! É muito fácil caminhar até aqui a partir do Castelo de Leiria. Recomendo usar sapatos rasos devido aos caminhos de calçada. Os locais são amigáveis, ótimos locais para fotos."
-      },
-      {
-        "name": "Rui Almeida",
-        "date": "Há 3 meses",
-        "rating": 5,
-        "text": "Parece que recuámos no tempo! Cada caminho e fonte tem a sua história. Descansar num banco faz-nos sentir que o tempo parou. Uma visita obrigatória em Leiria."
-      },
-      {
-        "name": "Catarina Gomes",
-        "date": "Há 2 meses",
-        "rating": 5,
-        "text": "Lindo além das palavras. Quer seja a estátua de Camões ou a vegetação verde, não vai querer ir embora. Recomendo vivamente sentar-se junto à fonte, a sensação é incrível."
-      }
-    ]
+    "declaration": "As avaliações podem ser consultadas via Google Maps (ligação externa).",
+    "moreReviews": "Ver Mais Avaliações no Google Maps"
   },
   "mapSection": {
     "title": "Mapa e Localização",
@@ -287,11 +301,11 @@
   },
   "footer": {
     "rights": "© 2026 Jardim Luís de Camões. Todos os direitos reservados.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Related Resources & Information",
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Definições de Cookies",
+    "officialResourcesTitle": "Recursos e Informação Relacionados",
+    "disclaimer": "Este site é um projeto independente de informação turística, sem afiliação com o governo local ou outras instituições oficiais.",
     "links": [
       {
         "name": "Visit Portugal — Turismo de Portugal",
@@ -308,10 +322,6 @@
       {
         "name": "Câmara Municipal de Leiria",
         "url": "https://www.cm-leiria.pt/"
-      },
-      {
-        "name": "AIMA — Agência para a Integração, Migrações e Asilo",
-        "url": "https://aima.gov.pt/pt"
       }
     ],
     "photoCredit": "Todas as fotografias apresentadas neste site permanecem propriedade dos respetivos fotógrafos, com direitos de autor reservados."
@@ -411,7 +421,7 @@
     "rejectAll": "Reject All"
   },
   "officialManagement": {
-    "title": "About Jardim Luís de Camões",
+    "title": "Sobre o Jardim Luís de Camões",
     "text": "O Jardim Luís de Camões é um importante jardim memorial no centro de Leiria, gerido e mantido pela Câmara Municipal de Leiria."
   },
   "facilities": {

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Jardim Luís de Camões, Leiria: Visitor Guide & Things to Do",
-    "description": "Visit Jardim Luís de Camões in Leiria, Portugal: a free memorial garden beside Leiria Castle, with a Camões statue, fountain and benches. Open all day. Map, what to see and visitor tips."
+    "title": "Jardim Luís de Camões, Leiria | Visitor Guide",
+    "description": "Discover Jardim Luís de Camões in central Leiria. Find out where it is, how to get there, what to see and nearby points of interest."
   },
   "header": {
     "home": "Home",
@@ -10,17 +10,80 @@
     "map": "Map",
     "backToHome": "Back to Home"
   },
+  "relatedGuides": {
+    "title": "Leiria Guides"
+  },
+  "topics": {
+    "oQueVisitar": {
+      "metaTitle": "Things to Do in Leiria | Attractions & Itinerary",
+      "metaDescription": "What to do in Leiria: Jardim Luís de Camões, the Castle, the Cathedral, the old town and Praça Rodrigues Lobo. A practical walking guide.",
+      "title": "Things to Do in Leiria",
+      "intro": "Leiria, in the heart of Portugal, has a compact, walkable historic centre. From the Jardim Luís de Camões to the castle overlooking the Lis river, everything can be explored on foot in a morning or afternoon.",
+      "sections": [
+        { "id": "jardim", "title": "Jardim Luís de Camões — the starting point", "content": "The memorial garden dedicated to Camões is the natural place to start. Small, flat and peaceful, it sits right by the old town and a five-minute walk from the Castle." },
+        { "id": "praca", "title": "Praça Rodrigues Lobo", "content": "The city's main square, lined with cafés and traditional shops, is the heart of urban life in Leiria and the gateway to the historic centre." },
+        { "id": "se", "title": "Sé de Leiria (Cathedral)", "content": "The former cathedral, of medieval plan with later reforms, lies a short walk from the garden and the square, up in the historic centre." },
+        { "id": "castelo", "title": "Castelo de Leiria", "content": "The symbol of the city, this medieval castle was a royal palace under King Dinis and keeps its celebrated Gothic gallery of pointed arches. From the hill, the view takes in the Lis river and the city." },
+        { "id": "rio", "title": "River Lis and surroundings", "content": "The Lis river runs through Leiria and its banks invite calm strolls. Nearby, the Leiria pine forest and the Atlantic coast (Nazaré, São Pedro de Moel) are about 30 minutes' drive away." }
+      ],
+      "faqTitle": "Frequently Asked Questions",
+      "faqSubtitle": "Common questions about what to do in Leiria.",
+      "faq": [
+        { "q": "What is there to do in Leiria in one day?", "a": "Start at the Jardim Luís de Camões, walk up through Praça Rodrigues Lobo to the Sé and the Castelo de Leiria, and finish in the old town with a coffee or a meal. Everything is a few minutes' walk apart." },
+        { "q": "Is Leiria worth visiting?", "a": "Yes. The historic centre is compact and walkable, with the castle, the cathedral, gardens and traditional shops all in a small area — ideal for a half-day visit." },
+        { "q": "How do I get around the centre of Leiria?", "a": "On foot. The main sights (garden, square, cathedral, castle) are 5–10 minutes' walk from each other. Paid on-street parking is available near the garden." }
+      ]
+    },
+    "leiria1Dia": {
+      "metaTitle": "Leiria in a Day | Walking Route Through the Old Town",
+      "metaDescription": "A one-day walking plan for Leiria: Jardim Luís de Camões, Praça Rodrigues Lobo, Sé de Leiria and the Castle. Practical schedule and tips.",
+      "title": "Leiria in a Day",
+      "intro": "A walking route that follows the official Leiria historic-centre visit trail — from Visit Portugal — starting at the Jardim Luís de Camões and climbing up to the Castle.",
+      "sections": [
+        { "id": "manha", "title": "Morning: garden and old town", "content": "Begin with the calm of the Jardim Luís de Camões (30–60 min), then climb through Praça Rodrigues Lobo and explore the historic centre with its cafés and craft shops." },
+        { "id": "se-castelo", "title": "Up to the Castle", "content": "About five minutes' walk from the garden is the Castelo de Leiria. Allow 1–1.5h for the ramparts, the Gothic gallery and the view over the Lis river. Bring water and comfortable shoes — there is a climb." },
+        { "id": "almoco", "title": "Lunch in the centre", "content": "The historic centre has restaurants serving central-Portuguese cuisine. Try seafood, roasted meats or conventual sweets." },
+        { "id": "tarde", "title": "Afternoon: museums and the Lis riverbank", "content": "In the afternoon, visit the city museums (e.g. Museu de Leiria) or walk along the Lis riverbank. With a car, you can head to the coast (Nazaré, about 30 min)." }
+      ],
+      "faqTitle": "Frequently Asked Questions",
+      "faqSubtitle": "Common questions about a one-day Leiria itinerary.",
+      "faq": [
+        { "q": "Can you see Leiria in one day?", "a": "Yes. The essentials (garden, square, cathedral, castle and old town) fit comfortably into one day, with time for lunch and a relaxed walk." },
+        { "q": "How long does the Castelo de Leiria take?", "a": "About 1 to 1.5 hours to visit the ramparts and the Gothic gallery at a relaxed pace." },
+        { "q": "Is the route suitable for families?", "a": "Largely yes: the garden and the centre are flat. The climb to the castle is inclined; bring a suitable stroller and water." }
+      ]
+    },
+    "historia": {
+      "metaTitle": "History of Jardim Luís de Camões | Leiria",
+      "metaDescription": "The history of the Jardim Luís de Camões in Leiria: the tribute to Camões, the central statue and the Estátua do Pastor Peregrino in the old town.",
+      "title": "History of the Jardim Luís de Camões",
+      "intro": "The garden is an urban space created by the city of Leiria to honour the greatest Portuguese poet. In the historic centre, by the castle hill, it joins literary memory with everyday rest.",
+      "sections": [
+        { "id": "camoes", "title": "Who was Luís de Camões", "content": "Luís Vaz de Camões (c. 1524–1580) is considered Portugal's greatest poet. He wrote Os Lusíadas and became a symbol of the Portuguese language — which is why 10 June, the date of his death, is Portugal Day." },
+        { "id": "jardim", "title": "The creation of the garden", "content": "The city of Leiria dedicated this garden to Camões as a space of memory and gathering, with his statue at its centre and a small fountain surrounded by shrubs." },
+        { "id": "esculturas", "title": "The sculptures of the garden", "content": "Besides the statue of Camões, the garden also includes the Estátua do Pastor Peregrino, a reference to Portuguese literary tradition." },
+        { "id": "cidade", "title": "Leiria and its castle", "content": "The garden sits by the historic hill of Leiria, dominated by the Castelo de Leiria and the Sé. The area is the core of the city's old town." }
+      ],
+      "faqTitle": "Frequently Asked Questions",
+      "faqSubtitle": "Common questions about the garden's history.",
+      "faq": [
+        { "q": "When was the Jardim Luís de Camões created?", "a": "The garden was established by the Câmara Municipal de Leiria as a tribute to Camões. Please check with the municipality for exact dates of its creation and the installation of the sculptures." },
+        { "q": "Which statues are in the garden?", "a": "The central statue dedicated to Luís de Camões and the Estátua do Pastor Peregrino, both in the historic centre of Leiria." },
+        { "q": "Is the garden paid?", "a": "No. It is a public open-air space, free and open all day." }
+      ]
+    }
+  },
   "hero": {
     "title": "Jardim Luís de Camões",
     "subtitle": "Leiria · Portugal",
     "rating": "4.5",
-    "reviewCount": "6,696",
+    "reviewCount": "6,719",
     "hours": "Open 24 Hours",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Explore Jardim Luís de Camões",
-    "description": "Jardim Luís de Camões is a small urban memorial garden located in the heart of Leiria, adjacent to the Leiria Castle and the old town. It is a popular spot for locals to relax and take a walk. At the center of the garden stands a bronze statue honoring Portugal's greatest poet, Luís de Camões, surrounded by manicured shrubs, flowers, benches, and a small fountain, offering a tranquil environment perfect for a brief rest.",
+    "description": "Jardim Luís de Camões is a small urban memorial garden located in the heart of Leiria, adjacent to the Leiria Castle and the old town. It is a popular spot for locals to relax and take a walk. At the center of the garden stands a statue honoring Portugal's greatest poet, Luís de Camões, surrounded by manicured shrubs, flowers, benches, and a small fountain, offering a tranquil environment perfect for a brief rest.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -33,10 +96,11 @@
     "alsoKnownAs": {
       "title": "Garden Highlights",
       "items": [
-        "Memorial Significance: Features a central bronze statue dedicated to the great Portuguese poet Luís de Camões",
+        "Memorial Significance: Features a central statue dedicated to the great Portuguese poet Luís de Camões",
         "Beautiful Environment: A harmonious blend of manicured green shrubs, seasonal flowers, and a small fountain",
         "Central Location: Situated in downtown Leiria, just a 5-minute walk from the historic Castelo de Leiria",
-        "Urban Oasis: Provides a quiet, relaxing space for both citizens and tourists"
+        "Urban Oasis: Provides a quiet, relaxing space for both citizens and tourists",
+        "Other Sculptures: Besides the Camões statue, the garden also features the Estátua do Pastor Peregrino, a reference to Portuguese literary tradition"
       ]
     }
   },
@@ -46,7 +110,7 @@
       {
         "id": "history",
         "title": "Memorial Significance",
-        "content": "This garden was established by the city of Leiria as an urban space to pay tribute to the Portuguese literary giant Luís de Camões, with his bronze statue acting as the centerpiece."
+        "content": "This garden was established by the city of Leiria as an urban space to pay tribute to the Portuguese literary giant Luís de Camões, with his statue acting as the centerpiece."
       },
       {
         "id": "architecture",
@@ -225,57 +289,7 @@
   "reviews": {
     "title": "Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "João Silva",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "A wonderful, well-preserved urban garden! The cobblestone paths and statues are full of history. Walking here is very relaxing. Highly recommend coming at sunset."
-      },
-      {
-        "name": "Maria Costa",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "One of the most beautiful leisure spots in Leiria! The tranquility here is so relaxing, and the surrounding greenery is gorgeous. Be careful in summer as it can get hot, bring water and sunscreen."
-      },
-      {
-        "name": "Carlos Rodrigues",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "An amazing place. The garden isn't huge, but the location is perfect. Had a great traditional Portuguese meal at a nearby restaurant. The only issue is finding parking during peak season."
-      },
-      {
-        "name": "Ana Martins",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "A very romantic and charming place. We walked around here and the night view is absolutely stunning. Completely fell in love with it!"
-      },
-      {
-        "name": "Pedro Santos",
-        "date": "1 year ago",
-        "rating": 5,
-        "text": "The scenery here really lifts your mood. You can see the exquisite statue blending with the wide square. The garden itself is charming with many cafes around."
-      },
-      {
-        "name": "Teresa Ferreira",
-        "date": "Over 6 months ago",
-        "rating": 4,
-        "text": "Well worth a visit! It's very easy to walk here from Leiria Castle. Recommend wearing flat shoes due to the cobblestone paths. Locals are friendly, great spots for photos."
-      },
-      {
-        "name": "Rui Almeida",
-        "date": "3 months ago",
-        "rating": 5,
-        "text": "Feels like stepping back in time! Every path and fountain has its story. Resting on a bench makes you feel like time has stopped. A must-visit in Leiria."
-      },
-      {
-        "name": "Catarina Gomes",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "Beautiful beyond words. Whether it's the Camões statue or the green vegetation, you won't want to leave. Highly recommend sitting by the fountain, it feels amazing."
-      }
-    ]
+    "moreReviews": "View More Reviews on Google Maps"
   },
   "mapSection": {
     "title": "Transportation Guide",
@@ -308,10 +322,6 @@
       {
         "name": "Leiria City Council",
         "url": "https://www.cm-leiria.pt/"
-      },
-      {
-        "name": "AIMA — Agency for Integration, Migration and Asylum",
-        "url": "https://aima.gov.pt/pt"
       }
     ],
     "photoCredit": "All photos displayed on this website remain the property of and copyrighted by their original photographers."
