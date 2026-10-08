@@ -327,7 +327,7 @@
     "photoCredit": "Todas as fotografias apresentadas neste site permanecem propriedade dos respetivos fotógrafos, com direitos de autor reservados."
   },
   "privacy": {
-    "title": "Privacy Policy",
+    "title": "Política de Privacidade",
     "lastUpdated": "Last Updated: May 2026",
     "sections": [
       {
@@ -349,7 +349,7 @@
     ]
   },
   "terms": {
-    "title": "Terms of Service",
+    "title": "Termos de Serviço",
     "lastUpdated": "Last Updated: May 2026",
     "sections": [
       {
@@ -375,7 +375,7 @@
     ]
   },
   "cookieSettings": {
-    "title": "Cookie Settings",
+    "title": "Definições de Cookies",
     "description": "Last Updated: May 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
     "essential": {
       "title": "Essential Cookies",

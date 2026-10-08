@@ -1,4 +1,4 @@
-import { setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
 import { baseUrl } from '@/config';
@@ -9,11 +9,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale);
+  const messages = (await getMessages()) as any;
+  const title = messages?.cookieSettings?.title || 'Jardim Luís de Camões';
   const route = '/cookie-settings';
   const url = (l: string) => `${baseUrl}/${l}${route}`;
   const selfUrl = url(locale);
 
   return {
+    title,
     alternates: {
       canonical: selfUrl,
       languages: {
