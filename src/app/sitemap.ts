@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { baseUrl } from '@/config';
+import { expandedGuides } from '@/lib/expanded-guides';
 
 export const dynamic = 'force-static';
 
@@ -10,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/o-que-visitar-em-leiria',
     '/leiria-em-1-dia',
     '/jardim-luis-de-camoes-historia',
+    '/guias',
+    ...expandedGuides.map((g) => `/guias/${g.slug}`),
     '/privacy-policy',
     '/terms-of-service',
     '/cookie-settings',
@@ -19,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const locale of locales) {
     for (const route of routes) {
+      if (route.startsWith('/guias') && locale !== 'pt') continue;
       const url = `${baseUrl}/${locale}${route}`;
       const languages: Record<string, string> = {
         zh: `${baseUrl}/zh${route}`,
@@ -30,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
       sitemap.push({
         url,
-        lastModified: new Date('2026-10-08'),
+        lastModified: new Date(route.startsWith('/guias') ? '2026-11-11' : '2026-10-08'),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
         priority:
           route === ''
@@ -40,9 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 route.startsWith('/jardim-luis-de-camoes-historia')
               ? 0.7
               : 0.5,
-        alternates: {
-          languages,
-        },
+        ...(!route.startsWith('/guias') ? { alternates: { languages } } : {}),
       });
     }
   }

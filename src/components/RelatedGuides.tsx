@@ -51,6 +51,7 @@ export default async function RelatedGuides() {
             );
           })}
         </div>
+        <a href="/pt/guias" className="inline-block mt-8 font-semibold underline" style={{ color: 'var(--accent)' }}>Explorar todos os guias de Leiria (PT) →</a>
       </div>
     </section>
   );
