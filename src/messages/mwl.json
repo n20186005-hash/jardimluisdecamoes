@@ -4,14 +4,20 @@
     "description": "Çcubra l Jardim Luís de Camões an Leiria: jardin memorial gratuito acerca de l Castielho, cula státua de l poeta, fuonte i bancos. Abierto to l die. Mapa, que bejitar i dicas prácticas."
   },
   "header": {
-    "home": "Home",
-    "gallery": "Gallery",
-    "reviews": "Reviews",
-    "map": "Map",
-    "backToHome": "Back to Home"
+    "home": "Ancício",
+    "gallery": "Galeria",
+    "reviews": "Avaliaçones",
+    "map": "Mapa",
+    "backToHome": "Boltar al ancício",
+    "menuGuides": "Guies de Leiria"
   },
   "relatedGuides": {
-    "title": "Guias de Leiria"
+    "title": "Guies de Leiria",
+    "eyebrow": "Splorar Leiria a partir de l jardin",
+    "heading": "Passeios i atraçones nas prossimidades",
+    "intro": "L Jardim Luís de Camões ye un punto de partida para splorar praças, monumientos mediebales, museus i margens de l Riu Lis. Cada guie apersenta la stória de l lhocal, l que ouserbar i un mapa própio.",
+    "cta": "Splorar ls 32 guies de Leiria",
+    "cardCta": "Ber guie i mapa"
   },
   "topics": {
     "oQueVisitar": {
@@ -78,14 +84,14 @@
     "subtitle": "Leiria · Pertual",
     "rating": "4.5",
     "reviewCount": "6,719",
-    "hours": "Open 24 Hours",
-    "openMaps": "View Location"
+    "hours": "Aberto 24 Horas",
+    "openMaps": "Ber Localizaçon"
   },
   "intro": {
     "title": "Splorar l Jardim Luís de Camões",
     "description": "L Jardim Luís de Camões ye un pequeinho jardin memorial ourbano lhocalizado ne l coraçon de Leiria, adjacente al Castielho de Leiria i al centro stórico. Ye un lhocal popular para ls habitantes lhocales relaxáren i passeáren. Ne l centro de l jardin argue-se ua státua an houmenaige al maior poeta de Pertual, Luís de Camões, rodeada por arbustos bien cuidados, flores, bancos i ua pequeinha fuonte, ouferecendo un ambiente tranquilo purfeito para un brebe çcanso.",
     "visitGuide": {
-      "title": "Visiting Tips",
+      "title": "Dicas de Bejita",
       "items": [
         "L jardin ye un parque ourbano abierto cun terreno praino i caminos cunfortables",
         "Eiquipado cun muitos bancos i selombra, tornando-lo un lhocal de çcanso eideal antes ó depuis de bejitar atraçones próssimas, cumo l Castielho de Leiria",
@@ -130,32 +136,32 @@
       {
         "id": "leiria",
         "title": "L Castielho i la Cidade de Leiria",
-        "content": "Leiria, an Pertual central, creciu an torno de l sou castielho, acerca de l riu Lis, tomado als muçulmanos ne l seclo XII ne l cuntesto de la Reconquista. Ne l reinado de D. Dinis (1279–1325) l castielho fui trasnformado an paço régio: l rei i la reina Santa Isabel passórun lhongas temporadas na cidade, adonde se custruiu la célebre galerie gótica d’arcores ogibales. Fui tamien por orde de D. Dinis que se mandou plantar l Pinhal de Leiria, junto a la cuosta. L jardin queda mesmo acerca de esta colina stórica, ne l coraçon de l centro antigo, sendo un punto de partida natural para coincer Leiria."
+        "content": "Leiria, an Pertual central, creciu an torno de l sou castielho, acerca de l riu Lis, tomado als muçulmanos ne l seclo XII ne l cuntesto de la Reconquista. Ne l reinado de D. Dinis (1279–1325) l castielho fui trasnformado an paço régio: l rei i la reina Santa Isabel passóran lhongas temporadas na cidade, adonde se custruiu la célebre galerie gótica d’arcores ogibales. Fui tamien por orde de D. Dinis que se mandou plantar l Pinhal de Leiria, junto a la cuosta. L jardin queda mesmo acerca de esta colina stórica, ne l coraçon de l centro antigo, sendo un punto de partida natural para coincer Leiria."
       }
     ]
   },
   "basicInfo": {
-    "title": "Basic Information",
-    "officialName": "Official Name",
+    "title": "Anformaçon Básica",
+    "officialName": "Nome Oufecial",
     "officialNameValue": "Jardim Luís de Camões",
-    "type": "Attraction Type",
+    "type": "Tipo de Atraçon",
     "typeValue": "Jardin Memorial Ourbano",
-    "country": "Country",
+    "country": "Paíç",
     "countryValue": "Portugal",
-    "city": "City",
+    "city": "Cidade",
     "cityValue": "Leiria",
-    "googleRating": "Google Rating",
-    "address": "Address",
+    "googleRating": "Avaliaçon Google",
+    "address": "Endereço",
     "addressValue": "Largo 5 de Outubro 48, 2400-137 Leiria, Pertual",
-    "plusCode": "Plus Code",
+    "plusCode": "Código Plus",
     "plusCodeValue": "P5VV+VF Leiria Pertual",
     "phone": "Telefone",
     "phoneValue": "+351 244 839 500"
   },
   "hours": {
-    "title": "Opening Hours",
-    "outdoor": "To l Jardin",
-    "outdoorTime": "Gratuito i abierto to l die, sin pabilhones anteriores pagos, sin restriçones sazonales",
+    "title": "Horairo de Abertura",
+    "outdoor": "Todo l Jardin",
+    "outdoorTime": "Gratuito i abierto to l die, sin pabilhones anteriores pagos, sin restriçons sazonales",
     "lighthouse": "Atraçones Próssimas",
     "summer": "Castielho de Leiria",
     "summerTime": "Normalmente 09:30-17:30 (sujeito la anúncios oufeciales de l castielho)",
@@ -166,7 +172,7 @@
     "tip": "Las purmeiras horas de la manhana i ls finales de tarde son ls momientos mais tranquilos, purfeitos para passear i fotografar"
   },
   "tickets": {
-    "title": "Ticket Information",
+    "title": "Anformaçon de Bilhetes",
     "outdoor": "Jardim Luís de Camões",
     "outdoorPrice": "Gratuito to l die",
     "lighthouse": "Atraçones Pagas Próssimas",
@@ -180,22 +186,22 @@
     "cardPrice": "Lhocalizado ne l centro de la cidade, a ua curta caminada de árias de restouraçon i comércio próssimas"
   },
   "transport": {
-    "title": "Transportation",
-    "airport": "From the Airport",
+    "title": "Trasporte",
+    "airport": "De l Aeroporto",
     "airportDesc": "Aeroportos Anternacionales Mais Próssimos: Aeroporto de Lhisboua LIS (aprox. 140 km, 1,5 horas de carro), Aeroporto de l Porto OPO (aprox. 200 km, 2 horas de carro).",
-    "selfDrive": "Driving",
+    "selfDrive": "Cunduçon",
     "selfDriveDesc": "A partir de Lhisboua, apañe la outoestrada A8 ó A1 para norte diretamente até Leiria. Defina l sou GPS para Largo 5 de Outubro 48 i ancontre stacionamiento pago na rue nas prossimidades.",
-    "bus": "Public Transport",
-    "busDesc": "Outocarros anterurbanos diretos (Rede Expressos) i camboios pártem de Lhisboua i de l Porto para Leiria. A partir de la staçon de Leiria, l jardin ye facilmente acessible a pie.",
-    "intercity": "Short-Distance Travel",
+    "bus": "Trasporte Público",
+    "busDesc": "Outocarros anterurbanos diretos (Rede Expressos) i camboios párten de Lhisboua i de l Porto para Leiria. A partir de la staçon de Leiria, l jardin ye facilmente acessible a pie.",
+    "intercity": "Biaiges de Curta Distáncia",
     "intercityDesc": "Las atraçones ne l centro de Leiria stan próssimas uas de las outras; l Castielho de Leiria queda a solo 5 minutos a pie de l jardin.",
-    "cycling": "Cycling",
+    "cycling": "Bicicleta",
     "cyclingDesc": "Las árias costeiras al redror de Leiria (cumo la Nazaré i San Pedro de Moel) son ótimas para l ciclismo de strada.",
-    "tips": "Travel Tips",
+    "tips": "Dicas de Biaige",
     "tipsDesc": "Leiria ten ua lhocalizaçon central an Pertual, acerca de la cuosta atlántica, de l Castielho de Óbidos i de l Mosteiro de la Batalha, tornando-se un eicelente punto de partida para splorar la region central."
   },
   "route": {
-    "title": "Visiting Route",
+    "title": "Rota de Bejita",
     "overview": "Pecurso Pedestre ne l Centro de Leiria",
     "steps": [
       "Chegue al Jardim Luís de Camões para admirar la státua de Camões i la fuonte",
@@ -210,10 +216,10 @@
       "Preste atençon als parquímetros i lhemites de tiempo nas rues circundantes",
       "L Castielho de Leiria stá lhocalizado nua colina, eisigindo ua caminada a xubir"
     ],
-    "supplementsTitle": "Visiting Notes"
+    "supplementsTitle": "Notas de Bejita"
   },
   "photoSpots": {
-    "title": "Photo Spots",
+    "title": "Lugares para Fotografias",
     "spots": [
       {
         "name": "Státua de Luís de Camões",
@@ -232,11 +238,11 @@
         "desc": "La silhueta de l castielho puode ser anquadrada a partir de ángulos specíficos al redror de l jardin"
       }
     ],
-    "tips": "Photography Tips",
+    "tips": "Dicas de Fotografie",
     "tipsContent": "La luç solar de la manhana filtrada pulas fuolhas subre la státua cria la melhor eiluminaçon para fotografie."
   },
   "hotels": {
-    "title": "Accommodation Suggestions",
+    "title": "Sugestones de Alojamiento",
     "hotels": [
       {
         "name": "Houtéles Boutique ne l Centro",
@@ -254,13 +260,13 @@
         "price": "Purfeito para cundutores que percuran ua speriéncia de bacanças na praia"
       }
     ],
-    "supplements": "Accommodation Notes",
+    "supplements": "Notas de Alojamiento",
     "supplementsContent": "Leiria i l Centro de Pertual son famosos pul marisco, carnes assadas i doçarie cumbentual tradecional. Einúmeros restourantes lhocales bien abaliados ancóntran-se a ua curta çtáncia a pie de l jardin.",
-    "supplementsTitle": "Local Cuisine"
+    "supplementsTitle": "Cozina Lhocal"
   },
   "gallery": {
-    "title": "Stunning Photos",
-    "subtitle": "Charming Scenery of Jardim Luís de Camões",
+    "title": "Fotografies Ampressionantes",
+    "subtitle": "Paisaige Encantadora de l Jardim Luís de Camões",
     "captions": [
       "Státua de Camões",
       "Fuonte de l Jardin",
@@ -283,29 +289,30 @@
       "Caratelística de la Auga",
       "Lhocales a Relaxar"
     ],
-    "viewAll": "View more photos on Google Maps",
-    "showAllPhotos": "Show All Photos"
+    "viewAll": "Ber mais fotografies ne l Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotografies"
   },
   "reviews": {
-    "title": "Visitor Reviews",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps"
+    "title": "Avaliaçones de Besitantes",
+    "declaration": "La anformaçon de las avaliaçones puode ser bista atrabeç de l Google Maps (lhaç eisterno).",
+    "moreReviews": "Ber Mais Avaliaçones ne l Google Maps"
   },
   "mapSection": {
-    "title": "Transportation Guide",
+    "title": "Guia de Trasporte",
     "subtitle": "Largo 5 de Outubro 48, 2400-137 Leiria, Pertual",
-    "openMaps": "View on Google Maps",
+    "openMaps": "Ber ne l Google Maps",
     "authority": "Fuonte oufecial",
     "authorityLinkLabel": "Turismo Centro de Pertual (portal regional de turismo)",
     "authorityLinkUrl": "https://www.centerofportugal.com/"
   },
   "footer": {
     "rights": "© 2026 Jardim Luís de Camões. Todos ls dreitos reserbados.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Related Resources & Information",
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "privacy": "Política de Priuacidade",
+    "terms": "Termos de Serbício",
+    "cookies": "Cunfiguraçones de Cookies",
+    "support": "Para suporte técnico deste site, contacte:",
+    "officialResourcesTitle": "Recursos i Anformaçones Relacionadas",
+    "disclaimer": "Este site ye un porjeto anformatibo andependiente de terceiros subre turismo. Nun tenemos afiliaçon cun l gobierno lhocal nin cun outras anstituiçones oufeciales.",
     "links": [
       {
         "name": "Bejita Pertual — Turismo de Pertual",
@@ -328,100 +335,100 @@
   },
   "privacy": {
     "title": "Política de Priuacidade",
-    "lastUpdated": "Last Updated: May 2026",
+    "lastUpdated": "Radadeira atualizaçon: Maio de 2026",
     "sections": [
       {
-        "heading": "1. Information We Collect",
-        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+        "heading": "1. Anformaçon que Recolhemos",
+        "content": "Recolhemos solo la dados mínimos neçairios para fornecer ls nuossos serbícios. Estes dados poden ancluir: dados de nabegaçon (endereço IP, tipo de nabegaçon, páiginas besitadas), cookies i tecnologies semelhantes, i qualquiera anformaçon que você forneça boluntariamente atrabeç de formulairos de cuntato ó eimails."
       },
       {
-        "heading": "2. How We Use Your Information",
-        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+        "heading": "2. Cumo Outelizamos la Sue Anformaçon",
+        "content": "Outelizamos la anformaçon recolhida para: melhorar l cuntenido de l site i la speriéncia de l'outelizador, analisar l tráfego i ls padrones de outelizaçon, respunder a pedidos i cumprir las nuossas oubrigaçones lhegales."
       },
       {
-        "heading": "3. Third-Party Services",
-        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "heading": "3. Serbícios de Terceiros",
+        "content": "L nuosso site puode outelizar serbícios de terceiros cumo Google Maps (para mapas anbedidos i dados de localizaçon), Google Analytics (para análie de tráfego) i Unsplash (para eimaiges). Estes serbícios ténen las sues própias políticas de priuacidade."
       },
       {
-        "heading": "4. Your Rights",
-        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
+        "heading": "4. Seus Dreitos",
+        "content": "Sob l Regulamiento Gerneral subre la Proteçon de Dados (RGPD) i regulamientos relacionados, você ten dreito a: aceder als sous dados pessonales, solicitar correçon ó eiliminaçon, opor-se al porcesso i apersentar ua queixa junto de ua outoridade de superbison."
       }
     ]
   },
   "terms": {
     "title": "Termos de Serbício",
-    "lastUpdated": "Last Updated: May 2026",
+    "lastUpdated": "Radadeira atualizaçon: Maio de 2026",
     "sections": [
       {
-        "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+        "heading": "1. Aceitaçon de Termos",
+        "content": "Al aceder i outelizar este site, você cuncorda an estar lhigado por estes termos de serbício."
       },
       {
-        "heading": "2. Use of Content",
-        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+        "heading": "2. Outelizaçon de l Cuntenido",
+        "content": "Todo l cuntenido deste site ye solo para fins anformatibos. Somos un site anformatibo de turismo andependiente de terceiros, nun afeliado a qualquiera atraçon turística, anstituiçon gobernamental ó ouperador comercial."
       },
       {
-        "heading": "3. Accuracy of Information",
-        "content": "We strive to provide accurate and timely information, but we cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Always verify important information through official channels before traveling."
+        "heading": "3. Precison de la Anformaçon",
+        "content": "Speramos fornecer anformaçon exata i oportuna, mas nun podemos garantir la sue cumpletude ó eisatidon. Roteiros, cundiçones i serbícios poden sofrer alteraçones sin abiso prébio. Siempre berifique anformaçones amportantes atrabeç de canhales oufeciales antes de biajar."
       },
       {
-        "heading": "4. Intellectual Property",
-        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+        "heading": "4. Propriedade Anteleitual",
+        "content": "L zeño i l cuntenido ouriginal de l site stan protegidos por dreitos de outor. Las eimaiges son oubtidas de l Unsplash i outelizadas sob lhicença. L outelizaçon de dados de l Google Maps cumpre ls termos de serbício de l Google."
       },
       {
-        "heading": "5. Limitation of Liability",
-        "content": "This website is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions made based on its content."
+        "heading": "5. Lhemitaçon de Responsablidade",
+        "content": "Este site ye fornecido «cumo stá», sin qualquiera garantie. Nun somos respunsables por qualquiera perda resultante de l outelizaçon de la anformaçon neste site, ancluindo, mas nun se lhemitando, a decisones de biaige tomadas com base ne l sou cuntenido."
       }
     ]
   },
   "cookieSettings": {
     "title": "Cunfiguraçones de Cookies",
-    "description": "Last Updated: May 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "description": "Radadeira atualizaçon: Maio de 2026\n\nOutelizamos cookies para melhorar la sue speriéncia de nabegaçon. Pode gerir las sues preferéncias ambaixo.",
     "essential": {
-      "title": "Essential Cookies",
-      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
-      "badge": "Always Active"
+      "title": "Cookies Essenciais",
+      "description": "Estes cookies son essenciais para que l site funcionne corretamente i nó poden ser zatibados.",
+      "badge": "Siempre Atibos"
     },
     "analytics": {
-      "title": "Analytics Cookies",
-      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "title": "Cookies de Análie",
+      "description": "Ajudan-nos a antender cumo ls besitantes anterágen cun l nuosso site atrabeç de la recolha de dados de outelizaçon anónimos.",
       "items": [
         {
           "name": "Google Analytics",
-          "status": "Active",
-          "description": "It collects anonymous information about how visitors use our website."
+          "status": "Atibo",
+          "description": "Recolhe anformaçon anónima subre cumo ls besitantes outelizan l nuosso site."
         }
       ]
     },
     "marketing": {
-      "title": "Marketing Cookies",
-      "description": "They are used to show relevant advertisements and measure the effectiveness of ad campaigns.",
+      "title": "Cookies de Marketing",
+      "description": "Son outelizados para amostrar anúncios relebantes i medir la eificácia de las campanhas publicitárias.",
       "items": [
         {
-          "name": "Personalized Ads",
-          "status": "Inactive",
-          "description": "It can show you relevant ads based on your interests."
+          "name": "Anúncios Personalizados",
+          "status": "Anatibo",
+          "description": "Pode amostrar-le anúncios relebantes com base nos sous antresses."
         }
       ]
     },
-    "save": "Save Preferences",
-    "saved": "Settings saved!",
+    "save": "Guardar Preferéncias",
+    "saved": "Cunfiguraçones guardadas!",
     "preferences": {
       "items": [
         {
-          "name": "User Preferences",
-          "status": "Active",
-          "description": "Saves your language preferences and website settings."
+          "name": "Preferéncias de l Outelizador",
+          "status": "Atibo",
+          "description": "Guarda las suas preferéncias de lhéngua i de cunfiguraçon de l site."
         }
       ],
-      "title": "Preference Cookies",
-      "description": "They remember your settings, such as language and theme preferences."
+      "title": "Cookies de Preferéncia",
+      "description": "Lembran-se de las sues cunfiguraçones, cumo preferéncias de lhéngua i de tema."
     },
-    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
-    "rejectAll": "Reject All"
+    "consentManagement": "Geston de Cunsentimiento: Pode alterar las sues cunfiguraçones de cookies a qualquiera momiento. Note que la zativaçon de ciertos cookies pode afetar la funcionalidade de l site.",
+    "rejectAll": "Rejeitar Todo"
   },
   "officialManagement": {
-    "title": "About Jardim Luís de Camões",
+    "title": "Subre l Jardim Luís de Camões",
     "text": "L Jardim Luís de Camões ye un amportante jardin memorial ne l centro de Leiria, gerido i mantenido pula Cámara Municipal de Leiria."
   },
   "facilities": {
@@ -491,7 +498,7 @@
     "items": [
       {
         "q": "La antrada ne l jardin ye gratuita?",
-        "a": "Si. L Jardim Luís de Camões ye un spácio público a l aire libre, gratuito i abierto a todos."
+        "a": "Si. L Jardim Luís de Camões ye un spácio público a l aire livre, gratuito i abierto a todos."
       },
       {
         "q": "Qual ye l horairo de funcionamiento?",

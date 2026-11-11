@@ -8,10 +8,16 @@
     "gallery": "图库",
     "reviews": "评价",
     "map": "地图",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "menuGuides": "莱里亚指南"
   },
   "relatedGuides": {
-    "title": "莱里亚游览指南"
+    "title": "莱里亚游览指南",
+    "eyebrow": "从花园出发探索莱里亚",
+    "heading": "周边散步与景点",
+    "intro": "Jardim Luís de Camões 是探索广场、中世纪古迹、博物馆与 Lis 河岸的起点。每篇指南都介绍当地历史、可观之处，并附专属地图。",
+    "cta": "探索 32 篇莱里亚指南",
+    "cardCta": "查看指南与地图"
   },
   "topics": {
     "oQueVisitar": {
@@ -304,6 +310,7 @@
     "privacy": "隐私政策",
     "terms": "服务条款",
     "cookies": "Cookie 设置",
+    "support": "如需本网站技术支持，请联系：",
     "officialResourcesTitle": "相关资源与资讯",
     "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
     "links": [

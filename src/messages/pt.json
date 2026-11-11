@@ -8,10 +8,16 @@
     "gallery": "Galeria",
     "reviews": "Avaliações",
     "map": "Mapa",
-    "backToHome": "Voltar ao Início"
+    "backToHome": "Voltar ao Início",
+    "menuGuides": "Guias de Leiria"
   },
   "relatedGuides": {
-    "title": "Guias de Leiria"
+    "title": "Guias de Leiria",
+    "eyebrow": "Explore Leiria a partir do jardim",
+    "heading": "Passeios e atrações nas proximidades",
+    "intro": "O Jardim Luís de Camões é um ponto de partida para explorar praças, monumentos medievais, museus e margens do Rio Lis. Cada guia apresenta a história do local, o que observar e um mapa próprio.",
+    "cta": "Explorar os 32 guias de Leiria",
+    "cardCta": "Ver guia e mapa"
   },
   "topics": {
     "oQueVisitar": {
@@ -304,6 +310,7 @@
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
     "cookies": "Definições de Cookies",
+    "support": "Para suporte técnico deste site, contacte:",
     "officialResourcesTitle": "Recursos e Informação Relacionados",
     "disclaimer": "Este site é um projeto independente de informação turística, sem afiliação com o governo local ou outras instituições oficiais.",
     "links": [

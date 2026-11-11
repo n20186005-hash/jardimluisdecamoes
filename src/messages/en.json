@@ -8,10 +8,16 @@
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "menuGuides": "Leiria Guides"
   },
   "relatedGuides": {
-    "title": "Leiria Guides"
+    "title": "Leiria Guides",
+    "eyebrow": "Explore Leiria from the garden",
+    "heading": "Walks and nearby attractions",
+    "intro": "Jardim Luís de Camões is a starting point for exploring squares, medieval monuments, museums and the banks of the Lis river. Each guide presents the place's history, what to observe and its own map.",
+    "cta": "Explore the 32 Leiria guides",
+    "cardCta": "View guide and map"
   },
   "topics": {
     "oQueVisitar": {
@@ -304,6 +310,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
+    "support": "For technical support for this website, contact:",
     "officialResourcesTitle": "Related Resources & Information",
     "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
     "links": [

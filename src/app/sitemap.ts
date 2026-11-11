@@ -5,7 +5,9 @@ import { expandedGuides } from '@/lib/expanded-guides';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = ['zh', 'en', 'pt', 'mwl'];
+  // Guides are published in pt/en/zh. Mirandese (mwl) is redirected to the
+  // Portuguese source, so it is not listed as a separate guide URL.
+  const locales = ['zh', 'en', 'pt'];
   const routes = [
     '',
     '/o-que-visitar-em-leiria',
@@ -22,19 +24,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const locale of locales) {
     for (const route of routes) {
-      if (route.startsWith('/guias') && locale !== 'pt') continue;
+      const isGuia = route.startsWith('/guias');
       const url = `${baseUrl}/${locale}${route}`;
       const languages: Record<string, string> = {
         zh: `${baseUrl}/zh${route}`,
         en: `${baseUrl}/en${route}`,
         pt: `${baseUrl}/pt${route}`,
-        mwl: `${baseUrl}/mwl${route}`,
+        // Mirandese visitors are redirected to the Portuguese source for guides.
+        mwl: isGuia ? `${baseUrl}/pt${route}` : `${baseUrl}/mwl${route}`,
         'x-default': `${baseUrl}/pt${route}`,
       };
 
       sitemap.push({
         url,
-        lastModified: new Date(route.startsWith('/guias') ? '2026-11-11' : '2026-10-08'),
+        lastModified: new Date(isGuia ? '2026-11-11' : '2026-10-08'),
         changeFrequency: route === '' ? 'weekly' : 'monthly',
         priority:
           route === ''
@@ -44,7 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 route.startsWith('/jardim-luis-de-camoes-historia')
               ? 0.7
               : 0.5,
-        ...(!route.startsWith('/guias') ? { alternates: { languages } } : {}),
+        alternates: { languages },
       });
     }
   }

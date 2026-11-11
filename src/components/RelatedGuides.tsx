@@ -15,6 +15,10 @@ export default async function RelatedGuides() {
   const t = messages?.relatedGuides;
   if (!topics) return null;
 
+  const guideHref = (slug: string) =>
+    locale === 'mwl' ? `/pt/guias/${slug}` : `/${locale}/guias/${slug}`;
+  const guidesIndexHref = locale === 'mwl' ? '/pt/guias' : `/${locale}/guias`;
+
   return (
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -54,19 +58,20 @@ export default async function RelatedGuides() {
           })}
         </div>
         <div className="mt-14" id="passeios-perto-do-jardim">
-          <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: 'var(--accent)' }}>Explore Leiria a partir do jardim</p>
-          <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>Passeios e atrações nas proximidades</h2>
-          <p className="max-w-3xl mb-8 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>O Jardim Luís de Camões é um ponto de partida para explorar praças, monumentos medievais, museus e margens do Rio Lis. Cada guia apresenta a história do local, o que observar e um mapa próprio.</p>
+          <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: 'var(--accent)' }}>{t?.eyebrow}</p>
+          <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t?.heading}</h2>
+          <p className="max-w-3xl mb-8 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{t?.intro}</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {expandedGuides.filter((guide) => guide.kind === 'place').slice(0, 9).map((guide) => {
               const photo = guideDetails[guide.slug]?.photo;
-              return <a href={`/pt/guias/${guide.slug}`} key={guide.slug} className="block overflow-hidden rounded-xl hover:shadow-lg transition-shadow" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
+              const focus = typeof guide.focus === 'string' ? guide.focus : (guide.focus as any)[locale] ?? (guide.focus as any).pt;
+              return <a href={guideHref(guide.slug)} key={guide.slug} className="block overflow-hidden rounded-xl hover:shadow-lg transition-shadow" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
                 {photo && <img src={`/guide-photos/${photo}.jpg`} alt={`${guide.title}, Leiria`} className="w-full h-40 object-cover" loading="lazy" />}
-                <div className="p-5"><h3 className="font-semibold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>{guide.title}</h3><p className="text-sm leading-6" style={{ color: 'var(--text-secondary)' }}>{guide.focus}</p><span className="inline-block mt-4 text-sm font-medium" style={{ color: 'var(--accent)' }}>Ver guia e mapa →</span></div>
+                <div className="p-5"><h3 className="font-semibold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>{guide.title}</h3><p className="text-sm leading-6" style={{ color: 'var(--text-secondary)' }}>{focus}</p><span className="inline-block mt-4 text-sm font-medium" style={{ color: 'var(--accent)' }}>{t?.cardCta} →</span></div>
               </a>;
             })}
           </div>
-          <a href="/pt/guias" className="inline-block mt-8 rounded-lg px-6 py-3 font-semibold" style={{ background: 'var(--accent)', color: '#fff' }}>Explorar os 32 guias de Leiria (PT) →</a>
+          <a href={guidesIndexHref} className="inline-block mt-8 rounded-lg px-6 py-3 font-semibold" style={{ background: 'var(--accent)', color: '#fff' }}>{t?.cta} →</a>
         </div>
       </div>
     </section>

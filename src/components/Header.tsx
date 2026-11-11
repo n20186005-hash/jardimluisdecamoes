@@ -13,6 +13,8 @@ export default function Header() {
   const home = pathname === `/${locale}` || pathname === `/${locale}/` || pathname === '/';
   const [scrolled, setScrolled] = useState(false);
   const solidHeader = scrolled || !home;
+  // Guides are published in pt/en/zh; Mirandese (mwl) links to the Portuguese source.
+  const guidesHref = locale === 'mwl' ? '/pt/guias' : `/${locale}/guias`;
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 50);
@@ -45,11 +47,11 @@ export default function Header() {
               {t(section)}
             </a>
           ))}
-          <a href="/pt/guias" className="text-sm font-medium transition-colors" style={{ color: solidHeader ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}>Guias de Leiria</a>
+          <a href={guidesHref} className="text-sm font-medium transition-colors" style={{ color: solidHeader ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}>{t('menuGuides')}</a>
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href="/pt/guias" className="md:hidden text-xs font-medium px-2 py-2" style={{ color: solidHeader ? 'var(--text-secondary)' : '#fff' }}>Guias</a>
+          <a href={guidesHref} className="md:hidden text-xs font-medium px-2 py-2" style={{ color: solidHeader ? 'var(--text-secondary)' : '#fff' }}>{t('menuGuides')}</a>
           <ThemeToggle />
           <LanguageToggle />
         </div>
