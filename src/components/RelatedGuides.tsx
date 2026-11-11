@@ -1,4 +1,6 @@
 import { getLocale, getMessages } from 'next-intl/server';
+import { expandedGuides } from '@/lib/expanded-guides';
+import { guideDetails } from '@/lib/guide-details';
 
 const GUIDES = [
   { key: 'oQueVisitar', path: '/o-que-visitar-em-leiria' },
@@ -51,7 +53,21 @@ export default async function RelatedGuides() {
             );
           })}
         </div>
-        <a href="/pt/guias" className="inline-block mt-8 font-semibold underline" style={{ color: 'var(--accent)' }}>Explorar todos os guias de Leiria (PT) →</a>
+        <div className="mt-14" id="passeios-perto-do-jardim">
+          <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: 'var(--accent)' }}>Explore Leiria a partir do jardim</p>
+          <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>Passeios e atrações nas proximidades</h2>
+          <p className="max-w-3xl mb-8 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>O Jardim Luís de Camões é um ponto de partida para explorar praças, monumentos medievais, museus e margens do Rio Lis. Cada guia apresenta a história do local, o que observar e um mapa próprio.</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {expandedGuides.filter((guide) => guide.kind === 'place').slice(0, 9).map((guide) => {
+              const photo = guideDetails[guide.slug]?.photo;
+              return <a href={`/pt/guias/${guide.slug}`} key={guide.slug} className="block overflow-hidden rounded-xl hover:shadow-lg transition-shadow" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
+                {photo && <img src={`/guide-photos/${photo}.jpg`} alt={`${guide.title}, Leiria`} className="w-full h-40 object-cover" loading="lazy" />}
+                <div className="p-5"><h3 className="font-semibold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>{guide.title}</h3><p className="text-sm leading-6" style={{ color: 'var(--text-secondary)' }}>{guide.focus}</p><span className="inline-block mt-4 text-sm font-medium" style={{ color: 'var(--accent)' }}>Ver guia e mapa →</span></div>
+              </a>;
+            })}
+          </div>
+          <a href="/pt/guias" className="inline-block mt-8 rounded-lg px-6 py-3 font-semibold" style={{ background: 'var(--accent)', color: '#fff' }}>Explorar os 32 guias de Leiria (PT) →</a>
+        </div>
       </div>
     </section>
   );
